@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const route = useRoute<'hi-id'>()
+const route = useRoute<"hi-id">()
 const user = useUserStore()
 const name = route.params.id
 
@@ -8,7 +8,7 @@ watchEffect(() => {
 })
 
 definePageMeta({
-  layout: 'home',
+  layout: "home",
 })
 </script>
 
